@@ -1,0 +1,30 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Generated Prisma Client
+api/src/generated/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+.temp/
+.tmp/
+
+# IDE files
+.idea/
+.vscode/
